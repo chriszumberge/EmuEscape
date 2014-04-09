@@ -24,10 +24,10 @@
 		836672D918F4DF1700747F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836672B418F4DF1700747F2F /* UIKit.framework */; };
 		836672E118F4DF1700747F2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836672DF18F4DF1700747F2F /* InfoPlist.strings */; };
 		836672E318F4DF1700747F2F /* Emu_EscapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836672E218F4DF1700747F2F /* Emu_EscapeTests.m */; };
-		836672ED18F4E3DB00747F2F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 836672EC18F4E3DB00747F2F /* background.png */; };
 		836672F118F4E53900747F2F /* EEGBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 836672F018F4E53900747F2F /* EEGBackground.m */; };
 		836672F418F4E7BE00747F2F /* EEGPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 836672F318F4E7BE00747F2F /* EEGPlayer.m */; };
 		836672F818F4E99700747F2F /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = 836672F718F4E99700747F2F /* character.png */; };
+		836672FA18F4FB9F00747F2F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 836672F918F4FB9F00747F2F /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,13 +64,13 @@
 		836672DE18F4DF1700747F2F /* Emu EscapeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Emu EscapeTests-Info.plist"; sourceTree = "<group>"; };
 		836672E018F4DF1700747F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		836672E218F4DF1700747F2F /* Emu_EscapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emu_EscapeTests.m; sourceTree = "<group>"; };
-		836672EC18F4E3DB00747F2F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		836672EE18F4E44A00747F2F /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		836672EF18F4E53900747F2F /* EEGBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGBackground.h; sourceTree = "<group>"; };
 		836672F018F4E53900747F2F /* EEGBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGBackground.m; sourceTree = "<group>"; };
 		836672F218F4E7BE00747F2F /* EEGPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGPlayer.h; sourceTree = "<group>"; };
 		836672F318F4E7BE00747F2F /* EEGPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGPlayer.m; sourceTree = "<group>"; };
 		836672F718F4E99700747F2F /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.png; sourceTree = "<group>"; };
+		836672F918F4FB9F00747F2F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +146,7 @@
 				836672CB18F4DF1700747F2F /* EEGMyScene.m */,
 				836672CD18F4DF1700747F2F /* Spaceship.png */,
 				836672CF18F4DF1700747F2F /* Images.xcassets */,
-				836672EC18F4E3DB00747F2F /* background.png */,
+				836672F918F4FB9F00747F2F /* background.png */,
 				836672F718F4E99700747F2F /* character.png */,
 				836672B918F4DF1700747F2F /* Supporting Files */,
 			);
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				836672BD18F4DF1700747F2F /* InfoPlist.strings in Resources */,
-				836672ED18F4E3DB00747F2F /* background.png in Resources */,
+				836672FA18F4FB9F00747F2F /* background.png in Resources */,
 				836672D018F4DF1700747F2F /* Images.xcassets in Resources */,
 				836672CE18F4DF1700747F2F /* Spaceship.png in Resources */,
 				836672C618F4DF1700747F2F /* Main.storyboard in Resources */,
