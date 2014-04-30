@@ -27,7 +27,22 @@
 		836672F118F4E53900747F2F /* EEGBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 836672F018F4E53900747F2F /* EEGBackground.m */; };
 		836672F418F4E7BE00747F2F /* EEGPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 836672F318F4E7BE00747F2F /* EEGPlayer.m */; };
 		836672F818F4E99700747F2F /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = 836672F718F4E99700747F2F /* character.png */; };
-		836672FA18F4FB9F00747F2F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 836672F918F4FB9F00747F2F /* background.png */; };
+		836672FA18F4FB9F00747F2F /* background-old.png in Resources */ = {isa = PBXBuildFile; fileRef = 836672F918F4FB9F00747F2F /* background-old.png */; };
+		837AFF8E191052BB00B37401 /* run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 837AFF8D191052BB00B37401 /* run.atlas */; };
+		837AFF90191057FA00B37401 /* jump.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 837AFF8F191057FA00B37401 /* jump.atlas */; };
+		837AFF9619107A8800B37401 /* background-before.png in Resources */ = {isa = PBXBuildFile; fileRef = 837AFF9519107A8800B37401 /* background-before.png */; };
+		837AFF9819107A8D00B37401 /* parallax-before.png in Resources */ = {isa = PBXBuildFile; fileRef = 837AFF9719107A8D00B37401 /* parallax-before.png */; };
+		837AFF9B191081D200B37401 /* background-brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 837AFF99191081D200B37401 /* background-brown.png */; };
+		837AFF9C191081D200B37401 /* parallax-old.png in Resources */ = {isa = PBXBuildFile; fileRef = 837AFF9A191081D200B37401 /* parallax-old.png */; };
+		837AFF9F1910827F00B37401 /* dustkick.sks in Resources */ = {isa = PBXBuildFile; fileRef = 837AFF9D1910827F00B37401 /* dustkick.sks */; };
+		837AFFA01910827F00B37401 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 837AFF9E1910827F00B37401 /* spark.png */; };
+		837AFFA41910876F00B37401 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 837AFFA31910876F00B37401 /* background.png */; };
+		837AFFA61910885D00B37401 /* parallax.png in Resources */ = {isa = PBXBuildFile; fileRef = 837AFFA51910885D00B37401 /* parallax.png */; };
+		837AFFA919108FE200B37401 /* EEGFatal.m in Sources */ = {isa = PBXBuildFile; fileRef = 837AFFA819108FE200B37401 /* EEGFatal.m */; };
+		837AFFAC1910913F00B37401 /* EEGSpeedUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 837AFFAB1910913F00B37401 /* EEGSpeedUp.m */; };
+		837AFFB41910965800B37401 /* speedup.sks in Resources */ = {isa = PBXBuildFile; fileRef = 837AFFB31910965800B37401 /* speedup.sks */; };
+		837AFFB61910968F00B37401 /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 837AFFB51910968F00B37401 /* fire.sks */; };
+		837AFFB91910A01200B37401 /* EEGGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 837AFFB81910A01200B37401 /* EEGGameOverScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +85,25 @@
 		836672F218F4E7BE00747F2F /* EEGPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGPlayer.h; sourceTree = "<group>"; };
 		836672F318F4E7BE00747F2F /* EEGPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGPlayer.m; sourceTree = "<group>"; };
 		836672F718F4E99700747F2F /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.png; sourceTree = "<group>"; };
-		836672F918F4FB9F00747F2F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		836672F918F4FB9F00747F2F /* background-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-old.png"; sourceTree = "<group>"; };
+		837AFF8D191052BB00B37401 /* run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = run.atlas; sourceTree = "<group>"; };
+		837AFF8F191057FA00B37401 /* jump.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = jump.atlas; sourceTree = "<group>"; };
+		837AFF9519107A8800B37401 /* background-before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-before.png"; sourceTree = "<group>"; };
+		837AFF9719107A8D00B37401 /* parallax-before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parallax-before.png"; sourceTree = "<group>"; };
+		837AFF99191081D200B37401 /* background-brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-brown.png"; sourceTree = "<group>"; };
+		837AFF9A191081D200B37401 /* parallax-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parallax-old.png"; sourceTree = "<group>"; };
+		837AFF9D1910827F00B37401 /* dustkick.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = dustkick.sks; sourceTree = "<group>"; };
+		837AFF9E1910827F00B37401 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		837AFFA31910876F00B37401 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		837AFFA51910885D00B37401 /* parallax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parallax.png; sourceTree = "<group>"; };
+		837AFFA719108FE200B37401 /* EEGFatal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGFatal.h; sourceTree = "<group>"; };
+		837AFFA819108FE200B37401 /* EEGFatal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGFatal.m; sourceTree = "<group>"; };
+		837AFFAA1910913F00B37401 /* EEGSpeedUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGSpeedUp.h; sourceTree = "<group>"; };
+		837AFFAB1910913F00B37401 /* EEGSpeedUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGSpeedUp.m; sourceTree = "<group>"; };
+		837AFFB31910965800B37401 /* speedup.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = speedup.sks; sourceTree = "<group>"; };
+		837AFFB51910968F00B37401 /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		837AFFB71910A01200B37401 /* EEGGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEGGameOverScene.h; sourceTree = "<group>"; };
+		837AFFB81910A01200B37401 /* EEGGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEGGameOverScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +167,14 @@
 			children = (
 				836672C118F4DF1700747F2F /* EEGAppDelegate.h */,
 				836672C218F4DF1700747F2F /* EEGAppDelegate.m */,
+				837AFF8F191057FA00B37401 /* jump.atlas */,
+				837AFF8D191052BB00B37401 /* run.atlas */,
 				836672C418F4DF1700747F2F /* Main.storyboard */,
 				836672EE18F4E44A00747F2F /* Common.h */,
+				837AFFA719108FE200B37401 /* EEGFatal.h */,
+				837AFFA819108FE200B37401 /* EEGFatal.m */,
+				837AFFAA1910913F00B37401 /* EEGSpeedUp.h */,
+				837AFFAB1910913F00B37401 /* EEGSpeedUp.m */,
 				836672F218F4E7BE00747F2F /* EEGPlayer.h */,
 				836672F318F4E7BE00747F2F /* EEGPlayer.m */,
 				836672EF18F4E53900747F2F /* EEGBackground.h */,
@@ -144,9 +183,21 @@
 				836672C818F4DF1700747F2F /* EEGViewController.m */,
 				836672CA18F4DF1700747F2F /* EEGMyScene.h */,
 				836672CB18F4DF1700747F2F /* EEGMyScene.m */,
-				836672CD18F4DF1700747F2F /* Spaceship.png */,
+				837AFFB71910A01200B37401 /* EEGGameOverScene.h */,
+				837AFFB81910A01200B37401 /* EEGGameOverScene.m */,
 				836672CF18F4DF1700747F2F /* Images.xcassets */,
-				836672F918F4FB9F00747F2F /* background.png */,
+				836672CD18F4DF1700747F2F /* Spaceship.png */,
+				837AFFB51910968F00B37401 /* fire.sks */,
+				837AFFB31910965800B37401 /* speedup.sks */,
+				837AFF9D1910827F00B37401 /* dustkick.sks */,
+				837AFF9E1910827F00B37401 /* spark.png */,
+				836672F918F4FB9F00747F2F /* background-old.png */,
+				837AFF9519107A8800B37401 /* background-before.png */,
+				837AFF9719107A8D00B37401 /* parallax-before.png */,
+				837AFF99191081D200B37401 /* background-brown.png */,
+				837AFFA31910876F00B37401 /* background.png */,
+				837AFF9A191081D200B37401 /* parallax-old.png */,
+				837AFFA51910885D00B37401 /* parallax.png */,
 				836672F718F4E99700747F2F /* character.png */,
 				836672B918F4DF1700747F2F /* Supporting Files */,
 			);
@@ -259,12 +310,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837AFF9F1910827F00B37401 /* dustkick.sks in Resources */,
+				837AFFA41910876F00B37401 /* background.png in Resources */,
 				836672BD18F4DF1700747F2F /* InfoPlist.strings in Resources */,
-				836672FA18F4FB9F00747F2F /* background.png in Resources */,
+				837AFF90191057FA00B37401 /* jump.atlas in Resources */,
+				837AFFA61910885D00B37401 /* parallax.png in Resources */,
+				837AFFA01910827F00B37401 /* spark.png in Resources */,
+				836672FA18F4FB9F00747F2F /* background-old.png in Resources */,
 				836672D018F4DF1700747F2F /* Images.xcassets in Resources */,
 				836672CE18F4DF1700747F2F /* Spaceship.png in Resources */,
 				836672C618F4DF1700747F2F /* Main.storyboard in Resources */,
 				836672F818F4E99700747F2F /* character.png in Resources */,
+				837AFFB61910968F00B37401 /* fire.sks in Resources */,
+				837AFFB41910965800B37401 /* speedup.sks in Resources */,
+				837AFF9619107A8800B37401 /* background-before.png in Resources */,
+				837AFF9C191081D200B37401 /* parallax-old.png in Resources */,
+				837AFF9819107A8D00B37401 /* parallax-before.png in Resources */,
+				837AFF9B191081D200B37401 /* background-brown.png in Resources */,
+				837AFF8E191052BB00B37401 /* run.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +346,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837AFFB91910A01200B37401 /* EEGGameOverScene.m in Sources */,
 				836672F418F4E7BE00747F2F /* EEGPlayer.m in Sources */,
 				836672CC18F4DF1700747F2F /* EEGMyScene.m in Sources */,
 				836672C918F4DF1700747F2F /* EEGViewController.m in Sources */,
 				836672C318F4DF1700747F2F /* EEGAppDelegate.m in Sources */,
 				836672BF18F4DF1700747F2F /* main.m in Sources */,
+				837AFFA919108FE200B37401 /* EEGFatal.m in Sources */,
+				837AFFAC1910913F00B37401 /* EEGSpeedUp.m in Sources */,
 				836672F118F4E53900747F2F /* EEGBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +565,7 @@
 				836672E818F4DF1700747F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836672E918F4DF1700747F2F /* Build configuration list for PBXNativeTarget "Emu EscapeTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +574,7 @@
 				836672EB18F4DF1700747F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

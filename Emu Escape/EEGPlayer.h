@@ -10,7 +10,21 @@
 
 @interface EEGPlayer : SKSpriteNode
 
-@property (assign) BOOL selected;
-@property (assign) BOOL accelerating;
+typedef enum playerState {
+    playerStateRunning = 0,
+    playerStateJumping,
+    playerStateInAir
+} playerState;
+
+@property (assign, nonatomic) BOOL selected;
+@property (assign, nonatomic) BOOL accelerating;
+@property (strong, nonatomic) NSMutableArray *runFrames;
+@property (strong, nonatomic) NSMutableArray *jumpFrames;
+@property (assign, nonatomic) playerState animationState;
+@property (assign, nonatomic) BOOL boost;
+
+@property (strong, nonatomic) SKEmitterNode *engineEmitter;
+
+- (void) takeDamage;
 
 @end

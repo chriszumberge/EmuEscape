@@ -11,5 +11,6 @@
 @interface EEGBackground : SKSpriteNode
 
 + (EEGBackground *)generateNewBackground;
++ (EEGBackground *)generateNewParallax;
 
 @end
